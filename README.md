@@ -4,3 +4,14 @@ Coal India Limited (CIL) has been supplying coal to its consumers by Rail throug
 Hence, a digital solution is proposed in the form of sensor/ IoT to prevent the under-loading and overloading of Railway wagons.             
 
 Key words: Sensor, IOT
+
+<br><hr><br>
+
+## Approach
+After the goods are loaded into the wagon, the load and weight sensor is activated. 
+For the prototype, the <b>SEN0160</b> module is used, which has a capacity of 1kg. 
+The sensor will transmit the data to a high precision A/D converter (Analog to digital converter), namely, the <b>HX711 Weighing Sensor Module</b>, which also acts as an amplifier. 
+The output of this device is then sent to the <b>Arduino microcontroller</b>. It will store the ideal capacity of the train wagon as a baseline value.
+The detected weight is then compared with this value to determine if the wagon is overloaded or underused. Accordingly, the microcontroller will activate the relevant indicators to let the user know. 
+Here, a 16x2 LCD is used to give the state of the wagon: <i>normal, underloaded, or overloaded</i>. 
+In addition to this, if the weight exceeds maximum capacity, a buzzer will also sound as a warning. 
