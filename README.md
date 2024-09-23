@@ -15,3 +15,32 @@ The output of this device is then sent to the <b>Arduino microcontroller</b>. It
 The detected weight is then compared with this value to determine if the wagon is overloaded or underused. Accordingly, the microcontroller will activate the relevant indicators to let the user know. 
 Here, a 16x2 LCD is used to give the state of the wagon: <i>normal, underloaded, or overloaded</i>. 
 In addition to this, if the weight exceeds maximum capacity, a buzzer will also sound as a warning. 
+
+<br><hr><br>
+
+## Description of Technology Stack
+<ul>
+  <li>Software
+    <ol>
+      <li>Front-end : XML</li>
+      <li>Back-end : Java and Python Language</li>
+    </ol>
+  </li>  
+  <li>
+    Hardware
+    <ol>
+      <li>Arduino UNO Board</li>
+      <li>Embedded Python</li>
+      <li>Components : Sensor, Amplifier, Arduino UNO Board, LCD, LEDs and Bluetooth</li>
+    </ol>
+</li>  
+</ul>
+
+<br><hr><br>
+
+## Use cases of project
+<ol>
+<li>Improve the transparency in railway department and lowers the maintenance on railway tracks.</li>
+<li>Used in various transportation means for example in cargo aircrafts, freighters, trailers, etc.</li>
+<li>Used in check posts (toll plaza).</li>
+</ol>
